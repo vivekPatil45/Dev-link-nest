@@ -1,9 +1,12 @@
 import { FaGithub, FaInfoCircle, FaLinkedin } from "react-icons/fa";
+import { RxCaretDown, RxCaretRight } from "react-icons/rx";
 
 export const Icons = {
     infoCircle: FaInfoCircle,
     faLinkedin: FaLinkedin,
     faGithub : FaGithub,
+    rxCaretDown: RxCaretDown,
+    rxCaretRight: RxCaretRight,
     GitHub: (props) => (
         <svg viewBox="0 0 24 24" fill="none" {...props}>
             <path

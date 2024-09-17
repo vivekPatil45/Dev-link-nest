@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'; // Use react-router-dom for internal li
 
 export const Footer = () => {
     return (
-        <footer className="z-10 flex w-full items-baseline justify-center rounded-lg text-center px-2 ">
+        <footer className="z-10 h-[58px]  flex w-full items-baseline justify-center rounded-lg text-center px-2 ">
             <div className="text-sm leading-7 md:tracking-wide text-center text-black dark:text-theme-secondary-light">
                 <div>&copy; {new Date().getFullYear()} DevLinkNest</div>
                 <div className="lg:flex">

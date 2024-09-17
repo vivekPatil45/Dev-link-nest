@@ -28,7 +28,7 @@ const GeneralLayout = ({children}) => {
                     className="flex flex-col min-h-full px-4 pb-2 md:ml-[290px] lg:w-[calc(100%-290px)] bg-white dark:bg-inherit"
                     id="main"
                 >
-                    <div className="flex-grow">
+                    <div className="flex-grow mt-20">
                         {children}
                     </div>
 
