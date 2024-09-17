@@ -19,6 +19,7 @@ const Sidebar = () => {
                     dispatchSearch={dispatchSearch}
                 />
             </div>
+            
             <MemoizedSideNavbarCategoryList query={searchState.categoryQuery} />
         </div>
     )
