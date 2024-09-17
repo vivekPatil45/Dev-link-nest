@@ -1,4 +1,5 @@
 import { FaGithub, FaInfoCircle, FaLinkedin } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { RxCaretDown, RxCaretRight } from "react-icons/rx";
 
 export const Icons = {
@@ -7,6 +8,8 @@ export const Icons = {
     faGithub : FaGithub,
     rxCaretDown: RxCaretDown,
     rxCaretRight: RxCaretRight,
+    arrowRightLong: FaArrowRightLong,
+
     GitHub: (props) => (
         <svg viewBox="0 0 24 24" fill="none" {...props}>
             <path
