@@ -1,14 +1,71 @@
 import { FaGithub, FaInfoCircle, FaLinkedin } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { IoChevronBack } from "react-icons/io5";
 import { RxCaretDown, RxCaretRight } from "react-icons/rx";
 
 export const Icons = {
     infoCircle: FaInfoCircle,
+    ioChevronBack: IoChevronBack,
     faLinkedin: FaLinkedin,
     faGithub : FaGithub,
     rxCaretDown: RxCaretDown,
     rxCaretRight: RxCaretRight,
     arrowRightLong: FaArrowRightLong,
+    
+    arrow: (props) => (
+      <svg viewBox="0 0 24 24" fill="none" {...props}>
+        <path
+          d="M14.4299 5.92993L20.4999 11.9999L14.4299 18.0699"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M3.5 12H20.33"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    ),
+    messageIcon: (props) => (
+      <svg viewBox="0 0 20 20" fill="none" {...props}>
+        <path
+          d="M14.1667 15.3583H10.8334L7.12507 17.8249C6.57507 18.1916 5.83341 17.8 5.83341 17.1333V15.3583C3.33341 15.3583 1.66675 13.6916 1.66675 11.1916V6.19157C1.66675 3.69157 3.33341 2.0249 5.83341 2.0249H14.1667C16.6667 2.0249 18.3334 3.69157 18.3334 6.19157V11.1916C18.3334 13.6916 16.6667 15.3583 14.1667 15.3583Z"
+          stroke="#A6ABBF"
+          strokeWidth="1.5"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M10 9.46655V9.29159C10 8.72492 10.35 8.4249 10.7 8.18324C11.0417 7.9499 11.3833 7.64991 11.3833 7.09991C11.3833 6.33325 10.7667 5.71655 10 5.71655C9.23334 5.71655 8.6167 6.33325 8.6167 7.09991"
+          stroke="#A6ABBF"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M9.99617 11.4584H10.0037"
+          stroke="#A6ABBF"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    ),
+    Home: (props) => (
+      <svg viewBox="0 0 18 18" {...props}>
+        <path
+          d="M15.621 6.00825L10.7085 2.07825C9.74851 1.31325 8.24851 1.30575 7.29601 2.07075L2.38351 6.00825C1.67851 6.57075 1.25101 7.69575 1.40101 8.58075L2.34601 14.2357C2.56351 15.5032 3.74101 16.5007 5.02351 16.5007H12.9735C14.241 16.5007 15.441 15.4807 15.6585 14.2282L16.6035 8.57325C16.7385 7.69575 16.311 6.57075 15.621 6.00825ZM9.56101 13.5007C9.56101 13.8082 9.30601 14.0632 8.99851 14.0632C8.69101 14.0632 8.43601 13.8082 8.43601 13.5007V11.2507C8.43601 10.9432 8.69101 10.6882 8.99851 10.6882C9.30601 10.6882 9.56101 10.9432 9.56101 11.2507V13.5007Z"
+          fill="currentColor"
+        />
+      </svg>
+    ),
     angleDown: (props) => (
       <svg viewBox="0 0 20 20" fill="none" {...props}>
         <path
