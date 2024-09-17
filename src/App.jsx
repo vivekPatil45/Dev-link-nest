@@ -1,12 +1,15 @@
 import { BrowserRouter } from 'react-router-dom'
-import Header from './components/layout/Header'
+
+import GeneralLayout from './components/layout/GeneralLayout'
 
 function App() {
   
 
   return (
       <BrowserRouter>
-        <Header/>
+        <GeneralLayout>
+
+        </GeneralLayout>
       </BrowserRouter>
   )
 }

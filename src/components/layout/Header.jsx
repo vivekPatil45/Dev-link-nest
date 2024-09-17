@@ -20,13 +20,13 @@ const Header = () => {
         {
             icon: <Icons.Linkedin className={iconClass} />,
             title: 'LinkedIn',
-            href: 'https://www.linkedin.com/company/linkshub-dev',
+            href: 'https://www.linkedin.com',
             ariaLabel: 'Follow us on LinkedIn',
         },
         {
             icon: <Icons.GitHub className={iconClass} />,
             title: 'GitHub',
-            href: 'https://github.com/rupali-codes/LinksHub',
+            href: 'https://github.com/',
             ariaLabel: 'Explore on GitHub',
             showOnMobile: true,
         },
