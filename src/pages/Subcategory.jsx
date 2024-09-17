@@ -3,6 +3,8 @@ import { useLocation, useParams } from 'react-router-dom';
 import useFilterDB from '../hooks/useFilterDB';
 import { usePagination } from '../hooks/usePagination';
 import TopBar from '../components/TopBar';
+import CardsList from '../components/CardsList';
+import ComingSoon from '../components/ComingSoon';
 
 const Subcategory = () => {
     const location = useLocation();
@@ -17,17 +19,23 @@ const Subcategory = () => {
     let content;
     let filterData;
 
-    // if (filterDB && filterDB.length > 0) {
-    //     filterData = filterDB[0].slice(startIndex, endIndex);
-    //     content = <CardsList cards={filterData} />;
-    // } else {
-    //     content = <ComingSoon />;
-    // }
+    if (filterDB && filterDB.length > 0) {
+        filterData = filterDB[0].slice(startIndex, endIndex);
+        content = <CardsList cards={filterData} />;
+    } else {
+        content = <ComingSoon />;
+    }
     const toporbottom = true;
 
     return (
         <>
             <TopBar/>
+            <div
+                data-custom="restrict-click-outside"
+                className="relative min-h-[calc(100%-68px)] w-full  pb-4 md:min-h-[calc(100%-76px)] md:pl-5 lg:px-10 md:pt-2"
+            >
+                {content}
+            </div>
         </>
     )
 }
