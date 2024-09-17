@@ -1,7 +1,8 @@
 import { FaGithub, FaInfoCircle, FaLinkedin } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { IoIosArrowBack } from "react-icons/io";
 import { IoChevronBack } from "react-icons/io5";
-import { RxCaretDown, RxCaretRight } from "react-icons/rx";
+import { RxCaretDown, RxCaretRight, RxSlash } from "react-icons/rx";
 
 export const Icons = {
     infoCircle: FaInfoCircle,
@@ -11,7 +12,8 @@ export const Icons = {
     rxCaretDown: RxCaretDown,
     rxCaretRight: RxCaretRight,
     arrowRightLong: FaArrowRightLong,
-    
+    rxSlash: RxSlash,
+    arrowBack: IoIosArrowBack,
     arrow: (props) => (
       <svg viewBox="0 0 24 24" fill="none" {...props}>
         <path

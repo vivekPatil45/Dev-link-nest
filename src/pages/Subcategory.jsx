@@ -2,6 +2,7 @@ import React from 'react'
 import { useLocation, useParams } from 'react-router-dom';
 import useFilterDB from '../hooks/useFilterDB';
 import { usePagination } from '../hooks/usePagination';
+import TopBar from '../components/TopBar';
 
 const Subcategory = () => {
     const location = useLocation();
@@ -16,12 +17,12 @@ const Subcategory = () => {
     let content;
     let filterData;
 
-    if (filterDB && filterDB.length > 0) {
-        filterData = filterDB[0].slice(startIndex, endIndex);
-        content = <CardsList cards={filterData} />;
-    } else {
-        content = <ComingSoon />;
-    }
+    // if (filterDB && filterDB.length > 0) {
+    //     filterData = filterDB[0].slice(startIndex, endIndex);
+    //     content = <CardsList cards={filterData} />;
+    // } else {
+    //     content = <ComingSoon />;
+    // }
     const toporbottom = true;
 
     return (
