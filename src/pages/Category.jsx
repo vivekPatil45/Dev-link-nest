@@ -18,7 +18,7 @@ const Category = () => {
     
         return 'No description'
     }
-    console.log(categoryDescriptions);
+    
     
     return (
         <section
