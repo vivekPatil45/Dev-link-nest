@@ -5,6 +5,7 @@ import { usePagination } from '../hooks/usePagination';
 import TopBar from '../components/TopBar';
 import CardsList from '../components/CardsList';
 import ComingSoon from '../components/ComingSoon';
+import Pagination from '../components/Pagination';
 
 const Subcategory = () => {
     const location = useLocation();
@@ -35,6 +36,14 @@ const Subcategory = () => {
                 className="relative min-h-[calc(100%-68px)] w-full  pb-4 md:min-h-[calc(100%-76px)] md:pl-5 lg:px-10 md:pt-2"
             >
                 {content}
+                <div className="min-w-full h-10 py-5" />
+                    <Pagination
+                        toporbottom={toporbottom}
+                        totalPages={totalPages}
+                        currentPage={currentPage}
+                        handlePageChange={handlePageChange}
+                        numberOfCards={numberOfCards}
+                    />
             </div>
         </>
     )
