@@ -1,7 +1,13 @@
 import React, { useRef } from 'react'
 import { Icons } from '../icons';
 
-const Searchbar = ({inputRef}) => {
+const Searchbar = ({
+    dispatchSearch,
+    searchQuery,
+    showSuggestions,
+    searchQueryIsValid,
+    inputRef,
+}) => {
     const formRef = useRef(null);
     return (
         <form

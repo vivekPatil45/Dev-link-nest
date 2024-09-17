@@ -9,7 +9,17 @@ export const Icons = {
     rxCaretDown: RxCaretDown,
     rxCaretRight: RxCaretRight,
     arrowRightLong: FaArrowRightLong,
-
+    angleDown: (props) => (
+      <svg viewBox="0 0 20 20" fill="none" {...props}>
+        <path
+          d="M5.33325 7.5L9.83325 12L14.3333 7.5"
+          stroke="currentColor"
+          strokeWidth="1.66667"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    ),
     GitHub: (props) => (
         <svg viewBox="0 0 24 24" fill="none" {...props}>
             <path

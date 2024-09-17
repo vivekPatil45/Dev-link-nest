@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'theme-primary': '#3B82F6',
+        'theme-primary': '#a78bfa',
         'theme-secondary': '#8b5cf6',
         'theme-tertiary': '#1f2736',
         'theme-quaternary': '#293242',
@@ -38,7 +38,6 @@ export default {
       screens: {
         xs: '200px',
         folding: '320px',
-        tall: { raw: '(min-height: 800px)' },
       },
       display: ['group-hover'],
 
