@@ -4,6 +4,7 @@ import GeneralLayout from './components/layout/GeneralLayout'
 import Home from './pages/Home'
 import Category from './pages/Category'
 import Subcategory from './pages/Subcategory'
+import Saved from './pages/Saved'
 
 function App() {
   
@@ -14,8 +15,9 @@ function App() {
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='*' element={<Home/>}/>
-            <Route path="/:category" element={<Category />} />  {/* Category route */}
-            <Route path="/:category/*" element={<Subcategory />} />  Subcategory routes
+            <Route path="/:category" element={<Category />} /> 
+            <Route path="/:category/*" element={<Subcategory />} /> 
+            <Route path="/saved" element={<Saved />} />
 
           </Routes>
         </GeneralLayout>
