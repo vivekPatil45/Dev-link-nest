@@ -55,17 +55,17 @@ const Header = () => {
             const isActive = label === 'Home' ? isHomeActive : isUrlMatched
             return (
                 <li key={i}>
-                    <a
-                    href={href}
-                    className={`hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
-                        isActive ? 'text-primary dark:text-white' : 'text-gray-text'
-                    }`}
+                    <Link
+                        to={href}
+                        className={`hover:bg-slate-100 hover:bg-opacity-50 dark:hover:bg-zinc-400 dark:hover:bg-opacity-10 flex items-center justify-start p-2 gap-2 text-base font-medium leading-5 rounded-xl ${
+                            isActive ? 'text-primary dark:text-white' : 'text-gray-text'
+                        }`}
                     >
                     <span className="flex items-center justify-center"  title={label}>
                         {isActive ? activeIcon : inActiveIcon}
                     </span>
                     <span>{label}</span>
-                    </a>
+                    </Link>
                 </li>
             )
         })
