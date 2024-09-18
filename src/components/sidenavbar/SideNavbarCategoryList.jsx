@@ -3,7 +3,7 @@ import { sidebarData } from '../../database/data';
 import { useParams } from 'react-router-dom';
 import SideNavbarCategory from './SideNavbarCategory';
 
-const SideNavbarCategoryList = ({query}) => {
+export const SideNavbarCategoryList = ({query}) => {
     const categoriesList = getFilteredCategoryList(query);
     const { category } = useParams(); // Get the category from URL params
     const listRef = useRef(null);
@@ -71,5 +71,3 @@ const matchSearch = (item, query) => {
         matchingResources.length > 0
     );
 };
-
-export default SideNavbarCategoryList

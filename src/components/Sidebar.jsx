@@ -2,7 +2,7 @@ import React, { memo, useRef } from 'react'
 import Searchbar from './searchbar/Searchbar'
 import { useSearchReducer } from '../hooks/useSearchReducer'
 import useSearchShortcut from '../hooks/useSearchShortcut'
-import SideNavbarCategoryList from './sidenavbar/SideNavbarCategoryList'
+import {SideNavbarCategoryList} from './sidenavbar/SideNavbarCategoryList'
 
 const MemoizedSideNavbarCategoryList = memo(SideNavbarCategoryList)
 const Sidebar = () => {
