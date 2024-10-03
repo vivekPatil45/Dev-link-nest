@@ -63,6 +63,41 @@ export const sidebarData = [
         ],
     },
     {
+        category: 'backend',
+        subcategory: [
+            {
+                name: 'architecture',
+                url: '/architecture',
+                resources: DB.architecture,
+            },
+            { name: 'validation', url: '/validation', resources: DB.validation },
+            { name: 'security', url: '/security', resources: DB.security },
+            {
+                name: 'authentication',
+                url: '/authentication',
+                resources: DB.authentication,
+            },
+            {
+                name: 'email providers',
+                url: '/email_providers',
+                resources: DB.emailProviders,
+            },
+            { name: 'caching', url: '/caching', resources: DB.caching },
+            { name: 'testing', url: '/testing', resources: DB.testing },
+            {
+                name: 'system design',
+                url: '/system_design',
+                resources: DB.systemDesign,
+            },
+            { name: 'database', url: '/database', resources: DB.database },
+            {
+                name: 'APIs',
+                url: '/api',
+                resources: DB.api,
+            },
+        ],
+    },
+    {
         category: 'ai-tools',
         subcategory: [
             {

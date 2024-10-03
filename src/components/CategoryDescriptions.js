@@ -57,6 +57,28 @@ export const categoryDescriptions ={
     validation:
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
 
+    //backend
+    api: 'Interfaces that allow different software applications to communicate and share data with one another.',
+    architecture:
+        'Architecture is the art and technique of designing and building structures. It is both the process and the product of sketching, conceiving, planning, designing.',
+    authentication:
+        'Authentication is the process of verifying the identity of a user or system. It is used to ensure that only authorized users have access to a system or application.',
+    caching:
+        'Caching is the process of storing frequently accessed data in a cache so that it can be quickly retrieved when needed. Caching can improve the performance of applications by reducing the amount of time it takes to retrieve data from a database or other data source.',
+    database:
+        'A database is an organized collection of data that can be easily accessed, managed, and updated. Databases are used to store and manage data for various applications such as websites, mobile apps, and enterprise systems.',
+    email_providers:
+        'Platforms facilitating the exchange of electronic messages, allowing users to send, receive, and manage their emails efficiently.',
+    security:
+        'Security is the practice of protecting systems, networks, and data from unauthorized access, use, disclosure, disruption, modification, or destruction.',
+    system_design:
+        'System design is the process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements.',
+    testing:
+        'Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not.',
+    validation:
+        'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
+
+
     tensorflow:'TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.',
     design:'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
     chat_bots:"Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",

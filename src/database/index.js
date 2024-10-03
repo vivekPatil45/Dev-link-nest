@@ -23,3 +23,16 @@ export { default as design } from './ai_tools/design.json'
 export { default as blog_writing } from './ai_tools/blog_writing.json'
 export { default as chat_bots } from './ai_tools/chat_bots.json'
 export { default as tensorflow } from './ai_tools/tensorflow.json'
+
+
+// backend
+export { default as authentication } from './backend/authentication.json'
+export { default as architecture } from './backend/architecture.json'
+export { default as caching } from './backend/caching.json'
+export { default as security } from './backend/security.json'
+export { default as testing } from './backend/testing.json'
+export { default as validation } from './backend/validation.json'
+export { default as systemDesign } from './backend/system_design.json'
+export { default as database } from './backend/database.json'
+export { default as api } from './backend/api.json'
+export { default as emailProviders } from './backend/email_providers.json'
