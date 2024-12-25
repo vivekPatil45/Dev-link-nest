@@ -52,3 +52,18 @@ export { default as truffle } from './BlockChain/truffle.json'
 export { default as hardhat } from './BlockChain/hardhat.json'
 export { default as ethers } from './BlockChain/ethers.json'
 export { default as web3metaverse } from './BlockChain/web3_metaverse.json'
+
+
+//devops
+export { default as automationTools } from './devops/automation_tools.json'
+export { default as cicd } from './devops/cicd.json'
+export { default as configMang } from './devops/configuration_management.json'
+export { default as contOrch } from './devops/containerization_and_orchestration.json'
+export { default as monitorLogging } from './devops/monitoring_and_logging.json'
+export { default as devopsLifecycle } from './devops/devops_life_cycle.json'
+export { default as devopsMethodologies } from './devops/devops_methodologies.json'
+export { default as docker } from './devops/docker.json'
+export { default as jenkins } from './devops/jenkins.json'
+export { default as kubernetes } from './devops/kubernetes.json'
+export { default as microservices } from './devops/microservices.json'
+export { default as iac } from './devops/iac.json'

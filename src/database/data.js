@@ -185,5 +185,63 @@ export const sidebarData = [
                 resources: DB.web3metaverse,
             },
         ],
+        
+    },
+    {
+        category: 'devops',
+        subcategory: [
+            {
+                name: 'Automation Tools',
+                url: '/automation_tools',
+                resources: DB.automationTools,
+            },
+            {
+                name: 'CI/CD',
+                url: '/cicd',
+                resources: DB.cicd,
+            },
+            {
+                name: 'Configuration Management',
+                url: '/configuration_management',
+                resources: DB.configMang,
+            },
+            {
+                name: 'Containerization and Orchestration',
+                url: '/containerization_and_orchestration',
+                resources: DB.contOrch,
+            },
+            {
+                name: 'DevOps Life Cycle',
+                url: '/devops_life_cycle',
+                resources: DB.devopsLifecycle,
+            },
+            {
+                name: 'DevOps Methodologies',
+                url: '/devops_methodologies',
+                resources: DB.devopsMethodologies,
+            },
+            { name: 'docker', url: '/docker', resources: DB.docker },
+            { name: 'jenkins', url: '/jenkins', resources: DB.jenkins },
+            {
+                name: 'kubernetes',
+                url: '/kubernetes',
+                resources: DB.kubernetes,
+            },
+            {
+                name: 'microservices',
+                url: '/microservices',
+                resources: DB.microservices,
+            },
+            {
+                name: 'Monitoring and Loggging',
+                url: '/monitoring_and_logging',
+                resources: DB.monitorLogging,
+            },
+            {
+                name: 'IaC',
+                url: '/iac',
+                resources: DB.iac,
+            },
+        ],
     },
 ]
