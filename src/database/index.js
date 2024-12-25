@@ -45,3 +45,10 @@ export { default as resumeBuilding } from './placement_prep/resume_building.json
 export { default as portfolioBuilding } from './placement_prep/portfolio_building.json'
 export { default as coverLetters } from './placement_prep/cover_letters.json'
 export { default as certifications } from './placement_prep/certifications.json'
+
+// Block Chain
+export { default as smartContracts } from './BlockChain/smart-contracts.json'
+export { default as truffle } from './BlockChain/truffle.json'
+export { default as hardhat } from './BlockChain/hardhat.json'
+export { default as ethers } from './BlockChain/ethers.json'
+export { default as web3metaverse } from './BlockChain/web3_metaverse.json'

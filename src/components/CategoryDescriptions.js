@@ -84,7 +84,7 @@ export const categoryDescriptions ={
     chat_bots:"Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
     blog_writing:'Unlock your creativity and streamline your blog writing process with AI-powered tools. From generating ideas to optimizing SEO, these tools empower you to craft engaging content that captivates your audience.',
     
-    
+
     // Placement-Prep
     interview_preparation:
     'Diverse resources for developers to enhance interview skills, including articles, videos, and mock interview platforms.',
@@ -98,5 +98,17 @@ export const categoryDescriptions ={
     'Curated list of globally recognized tech certifications, including requirements, benefits, and preparation strategies, emphasizing industry recognition and validity.',
     cover_letters:
     "A cover letter is a formal document accompanying a resume, providing a personalized introduction to a potential employer. It highlights the applicant's qualifications, skills, and interest in the specific position.",
+
+     //BlockChain
+    web3_metaverse:
+    'Web3 is the next generation of the internet. It is a decentralized network that allows users to interact with each other without the need for intermediaries. ',
+    smartcontracts:
+    'Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on a blockchain network, which is a decentralized and distributed ledger technology. Smart contracts automatically execute and enforce the terms of a contract when predefined conditions are met',
+    truffle:
+    'Truffle is a popular development framework for Ethereum blockchain. It provides a development environment, testing framework, and asset pipeline for building decentralized applications (DApps) on the Ethereum platform.',
+    hardhat:
+    'Hardhat is another popular development framework for Ethereum smart contracts and decentralized applications (DApps). It provides a wide range of features and tools for Ethereum developers, making the development and testing of smart contracts easier and more efficient.',
+    ethers:
+    '"Ethers" generally refers to both the native cryptocurrency of the Ethereum network and a popular JavaScript library used for interacting with the Ethereum blockchain.',
 
 }

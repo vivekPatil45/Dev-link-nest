@@ -156,4 +156,34 @@ export const sidebarData = [
           },
         ],
     },
+    {
+        category: 'BlockChain',
+        subcategory: [
+            {
+                name: 'Smart Contracts',
+                url: '/smartcontracts',
+                resources: DB.smartContracts,
+            },
+            {
+                name: 'Truffle',
+                url: '/truffle',
+                resources: DB.truffle,
+            },
+            {
+                name: 'Hardhat',
+                url: '/hardhat',
+                resources: DB.hardhat,
+            },
+            {
+                name: 'Ethers',
+                url: '/ethers',
+                resources: DB.ethers,
+            },
+            {
+                name: 'Web3 & Metaverse',
+                url: '/web3_metaverse',
+                resources: DB.web3metaverse,
+            },
+        ],
+    },
 ]
