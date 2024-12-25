@@ -83,4 +83,20 @@ export const categoryDescriptions ={
     design:'Harness the power of AI-driven editing tools to refine your writing effortlessly. From grammar and style suggestions to readability enhancements, these editors ensure your content shines with clarity and precision',
     chat_bots:"Experience seamless interactions and instant assistance with AI chatbots. Whether it's answering queries, providing support, or automating tasks, these intelligent bots deliver personalized responses to enhance user experiences.",
     blog_writing:'Unlock your creativity and streamline your blog writing process with AI-powered tools. From generating ideas to optimizing SEO, these tools empower you to craft engaging content that captivates your audience.',
+    
+    
+    // Placement-Prep
+    interview_preparation:
+    'Diverse resources for developers to enhance interview skills, including articles, videos, and mock interview platforms.',
+    job_portals:
+    'Explore top job portals, their features, and expert tips for efficient job searching and connecting with employers.',
+    resume_building:
+    'Providing resources to help developers create compelling resumes that showcase their skills and experience.',
+    portfolio_building:
+    'Offer templates and examples to assist developers in building impressive portfolios that highlight their work and accomplishments.',
+    certifications:
+    'Curated list of globally recognized tech certifications, including requirements, benefits, and preparation strategies, emphasizing industry recognition and validity.',
+    cover_letters:
+    "A cover letter is a formal document accompanying a resume, providing a personalized introduction to a potential employer. It highlights the applicant's qualifications, skills, and interest in the specific position.",
+
 }

@@ -36,3 +36,12 @@ export { default as systemDesign } from './backend/system_design.json'
 export { default as database } from './backend/database.json'
 export { default as api } from './backend/api.json'
 export { default as emailProviders } from './backend/email_providers.json'
+
+
+// Placement-Preparation
+export { default as interviewPreparation } from './placement_prep/interview_preparation.json'
+export { default as jobPortals } from './placement_prep/job_portals.json'
+export { default as resumeBuilding } from './placement_prep/resume_building.json'
+export { default as portfolioBuilding } from './placement_prep/portfolio_building.json'
+export { default as coverLetters } from './placement_prep/cover_letters.json'
+export { default as certifications } from './placement_prep/certifications.json'

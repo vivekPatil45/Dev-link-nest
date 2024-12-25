@@ -121,4 +121,39 @@ export const sidebarData = [
             }
         ],
     },
+    {
+        category: 'Placement-Prep',
+        subcategory: [
+          {
+            name: 'Interview Preparation',
+            url: '/interview_preparation',
+            resources: DB.interviewPreparation,
+          },
+          {
+            name: 'Job Portals',
+            url: '/job_portals',
+            resources: DB.jobPortals,
+          },
+          {
+            name: 'Resume Building',
+            url: '/resume_building',
+            resources: DB.resumeBuilding,
+          },
+          {
+            name: 'Portfolio Building',
+            url: '/portfolio_building',
+            resources: DB.portfolioBuilding,
+          },
+          {
+            name: 'Cover Letters',
+            url: '/cover_letters',
+            resources: DB.coverLetters,
+          },
+          {
+            name: 'Certifications',
+            url: '/certifications',
+            resources: DB.certifications,
+          },
+        ],
+    },
 ]
