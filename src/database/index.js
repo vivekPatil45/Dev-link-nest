@@ -67,3 +67,9 @@ export { default as jenkins } from './devops/jenkins.json'
 export { default as kubernetes } from './devops/kubernetes.json'
 export { default as microservices } from './devops/microservices.json'
 export { default as iac } from './devops/iac.json'
+
+//cyber_security
+export { default as offensive_security } from './cybersecurity/offensive_security.json'
+export { default as defensive_security } from './cybersecurity/defensive_security.json'
+export { default as malware_analysis } from './cybersecurity/malware_analysis.json'
+export { default as web_security } from './cybersecurity/web_application_security.json'

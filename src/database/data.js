@@ -244,4 +244,29 @@ export const sidebarData = [
             },
         ],
     },
+    {
+        category: 'cyber-security',
+        subcategory: [
+            {
+                name: 'Offensive security',
+                url: '/offensive_security',
+                resources: DB.offensive_security,
+            },
+            {
+                name: 'Defensive Security',
+                url: '/defensive_security',
+                resources: DB.defensive_security,
+            },
+            {
+                name: 'Malware Analysis',
+                url: '/malware_analysis',
+                resources: DB.malware_analysis,
+            },
+            {
+                name: 'Web Security',
+                url: '/web_security',
+                resources: DB.web_security,
+            },
+        ],
+    },
 ]
