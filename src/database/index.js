@@ -73,3 +73,11 @@ export { default as offensive_security } from './cybersecurity/offensive_securit
 export { default as defensive_security } from './cybersecurity/defensive_security.json'
 export { default as malware_analysis } from './cybersecurity/malware_analysis.json'
 export { default as web_security } from './cybersecurity/web_application_security.json'
+
+
+//artificial intelligence
+export { default as artificialIntelligence } from './artificial_intelligence/artificial_intelligence.json'
+export { default as ml } from './artificial_intelligence/machine_learning.json'
+export { default as dataScience } from './artificial_intelligence/data_science.json'
+export { default as deepLearning } from './artificial_intelligence/deep_learning.json'
+export { default as nlp } from './artificial_intelligence/NLP.json'

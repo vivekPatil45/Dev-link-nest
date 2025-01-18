@@ -98,6 +98,32 @@ export const sidebarData = [
         ],
     },
     {
+        category: 'ai',
+        subcategory: [
+            {
+                name: 'artificial intelligence',
+                url: '/artificial_intelligence',
+                resources: DB.artificialIntelligence,
+            },
+            {
+                name: 'machine learning',
+                url: '/machine_learning',
+                resources: DB.ml,
+            },
+            { name: 'data science', url: '/data_science', resources: DB.dataScience },
+            {
+                name: 'deep learning',
+                url: '/deep_learning',
+                resources: DB.deepLearning,
+            },
+            {
+                name: 'NLP',
+                url: '/natural_language_processing',
+                resources: DB.nlp,
+            },
+        ],
+    },
+    {
         category: 'ai-tools',
         subcategory: [
             {
@@ -124,36 +150,36 @@ export const sidebarData = [
     {
         category: 'Placement-Prep',
         subcategory: [
-          {
-            name: 'Interview Preparation',
-            url: '/interview_preparation',
-            resources: DB.interviewPreparation,
-          },
-          {
-            name: 'Job Portals',
-            url: '/job_portals',
-            resources: DB.jobPortals,
-          },
-          {
-            name: 'Resume Building',
-            url: '/resume_building',
-            resources: DB.resumeBuilding,
-          },
-          {
-            name: 'Portfolio Building',
-            url: '/portfolio_building',
-            resources: DB.portfolioBuilding,
-          },
-          {
-            name: 'Cover Letters',
-            url: '/cover_letters',
-            resources: DB.coverLetters,
-          },
-          {
-            name: 'Certifications',
-            url: '/certifications',
-            resources: DB.certifications,
-          },
+            {
+                name: 'Interview Preparation',
+                url: '/interview_preparation',
+                resources: DB.interviewPreparation,
+            },
+            {
+                name: 'Job Portals',
+                url: '/job_portals',
+                resources: DB.jobPortals,
+            },
+            {
+                name: 'Resume Building',
+                url: '/resume_building',
+                resources: DB.resumeBuilding,
+            },
+            {
+                name: 'Portfolio Building',
+                url: '/portfolio_building',
+                resources: DB.portfolioBuilding,
+            },
+            {
+                name: 'Cover Letters',
+                url: '/cover_letters',
+                resources: DB.coverLetters,
+            },
+            {
+                name: 'Certifications',
+                url: '/certifications',
+                resources: DB.certifications,
+            },
         ],
     },
     {
