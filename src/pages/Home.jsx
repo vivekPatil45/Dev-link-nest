@@ -45,7 +45,7 @@ const Home = () => {
                                             <img src={Logo} alt="" />
                                         </div>
                                         <p className='my-2 pt-3 text-base text-text-quinary' >
-                                            LinksHub aims to provide people access to a wide range of
+                                            DevLinkNest aims to provide people access to a wide range of
                                             free resources and tools that they can use to learn and
                                             develop their tech skills. These resources include links
                                             to free software, libraries, frameworks, and other tools
