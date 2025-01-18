@@ -81,3 +81,10 @@ export { default as ml } from './artificial_intelligence/machine_learning.json'
 export { default as dataScience } from './artificial_intelligence/data_science.json'
 export { default as deepLearning } from './artificial_intelligence/deep_learning.json'
 export { default as nlp } from './artificial_intelligence/NLP.json'
+
+//cloud computing
+export { default as gcp } from './cloud_computing_platforms/gcp.json'
+export { default as aws } from './cloud_computing_platforms/aws.json'
+export { default as azure } from './cloud_computing_platforms/azure.json'
+export { default as oracle } from './cloud_computing_platforms/oracle.json'
+export { default as ibm } from './cloud_computing_platforms/ibm.json'

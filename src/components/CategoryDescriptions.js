@@ -122,4 +122,13 @@ export const categoryDescriptions ={
     natural_language_processing:
     'Natural Language Processing is a branch of artificial intelligence that focuses on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand and generate human language, allowing them to perform tasks like language translation an more. ',
 
+    //cloud computing
+    aws: "AWS, Amazon's cloud computing platform, provides scalable and reliable services, including computing power, storage, and machine learning. Trusted by millions, AWS enables businesses to innovate and transform digitally with efficiency.",
+    gcp: 'Google Cloud is a prominent cloud computing platform offering a range of services, from computing and storage to advanced AI solutions. Trusted by businesses, it facilitates innovation and scalability.',
+    azure:
+        'Microsoft Cloud, known as Azure, is a comprehensive cloud computing platform. With diverse services, including computing, storage, and AI, Azure empowers businesses to thrive in the digital landscape.',
+    oracle:
+        'Oracle Cloud is a leading cloud computing platform providing a robust suite of services. From databases to advanced solutions, Oracle Cloud supports businesses in achieving scalability, security, and innovation.',
+    ibm: 'IBM Cloud stands as a formidable cloud computing platform, offering a wide array of services. From computing power to advanced technologies, IBM Cloud supports businesses in their digital transformation journey.',
+
 }

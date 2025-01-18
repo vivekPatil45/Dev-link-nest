@@ -295,4 +295,18 @@ export const sidebarData = [
             },
         ],
     },
+    {
+        category: 'cloud-computing',
+        subcategory: [
+            { name: 'google cloud', url: '/gcp', resources: DB.gcp },
+            {
+                name: 'AWS cloud',
+                url: '/aws',
+                resources: DB.aws,
+            },
+            { name: 'Microsoft cloud', url: '/azure', resources: DB.azure },
+            { name: 'Oracle cloud', url: '/oracle', resources: DB.oracle },
+            { name: 'IBM cloud', url: '/ibm', resources: DB.ibm },
+        ],
+    },
 ]
