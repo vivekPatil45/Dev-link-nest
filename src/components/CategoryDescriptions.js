@@ -131,4 +131,19 @@ export const categoryDescriptions ={
         'Oracle Cloud is a leading cloud computing platform providing a robust suite of services. From databases to advanced solutions, Oracle Cloud supports businesses in achieving scalability, security, and innovation.',
     ibm: 'IBM Cloud stands as a formidable cloud computing platform, offering a wide array of services. From computing power to advanced technologies, IBM Cloud supports businesses in their digital transformation journey.',
 
+    //competitive programming
+    cp_helpers:
+        'Coding libraries, templates, and community forums serve as valuable aids for competitive programmers, offering pre-written code snippets, discussions, and collaborative support to optimize problem-solving efficiency.',
+    cp_platforms:
+        'Online platforms such as Codeforces, HackerRank, and LeetCode provide a virtual arena for programmers to engage in competitive programming challenges, honing their problem-solving skills.',
+    cp_tutorials:
+        'Various online resources offer tutorials on algorithms, data structures, and problem-solving techniques, assisting aspiring competitive programmers in enhancing their coding proficiency and strategic thinking.',
+
+    //data-structures
+    dsa_articles:
+        'This section provides various important articles related to DSA problem solving skills, how to tackle them, how to think about it and many more.',
+    dsa_courses:
+        'This section provides various online courses that can help you start with the fundamentals of data structures and algorithms and also ace your coding interviews.',
+    dsa_tutorials:
+        'This section provides you with YouTube tutorials that help you grasp concepts better by hands-on experience and learn better, practically!',
 }

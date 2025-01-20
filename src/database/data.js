@@ -309,4 +309,24 @@ export const sidebarData = [
             { name: 'IBM cloud', url: '/ibm', resources: DB.ibm },
         ],
     },
+    {
+        category: 'competitive-programming',
+        subcategory: [
+            { name: 'Platforms', url: '/cp_platforms', resources: DB.cpPlatforms },
+            { name: 'Tutorials', url: '/cp_tutorials', resources: DB.cpTutorials },
+            { name: 'Helpers', url: '/cp_helpers', resources: DB.cpHelpers },
+        ],
+    },
+    {
+        category: 'data-structures',
+        subcategory: [
+            { name: 'DSA Articles', url: '/dsa_articles', resources: DB.dsaArticles },
+            {
+                name: 'DSA Tutorials',
+                url: '/dsa_tutorials',
+                resources: DB.dsaTutorials,
+            },
+            { name: 'DSA Courses', url: '/dsa_courses', resources: DB.dsaCourses },
+        ],
+    },
 ]

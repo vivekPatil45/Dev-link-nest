@@ -88,3 +88,13 @@ export { default as aws } from './cloud_computing_platforms/aws.json'
 export { default as azure } from './cloud_computing_platforms/azure.json'
 export { default as oracle } from './cloud_computing_platforms/oracle.json'
 export { default as ibm } from './cloud_computing_platforms/ibm.json'
+
+// competitive programming
+export { default as cpPlatforms } from './competitive_programming/cp_platforms.json'
+export { default as cpTutorials } from './competitive_programming/cp_tutorials.json'
+export { default as cpHelpers } from './competitive_programming/cp_helpers.json'
+
+//DSA
+export { default as dsaArticles } from './data_structures/dsa_articles.json'
+export { default as dsaTutorials } from './data_structures/dsa_tutorials.json'
+export { default as dsaCourses } from './data_structures/dsa_courses.json'
